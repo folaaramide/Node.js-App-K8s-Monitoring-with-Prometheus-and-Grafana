@@ -77,7 +77,7 @@ This project uses a forked Node.js application:
 
 > 🔗 Forked From: [https://github.com/k21academyuk/nodejs-app-prometheus.git](https://github.com/k21academyuk/nodejs-app-prometheus.git)
    
-> 📁 Located in: `app/` directory
+> 📁 Located in: [`app/`](./app) directory
  
 > 🧪 Enhanced with Prometheus client for metric exporting
 
