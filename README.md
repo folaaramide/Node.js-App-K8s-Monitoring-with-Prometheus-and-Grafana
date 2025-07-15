@@ -132,7 +132,7 @@ Connect Prometheus as a data source.
 
 ### Logs of the deployed Node.js app
 
-![Logs of the deployed Node.js app](screenshots/node.js.app-deployment.png)
+![Logs of the deployed Node.js app](screenshots/nodejs-app-deployment.png)
 
 ### Output of /metrics endpoint from the app
 
