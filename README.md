@@ -1,4 +1,4 @@
-# 🚀 Kubernetes Monitoring with Prometheus & Grafana + Node.js App (Forked Node.js App, an open-source Node.js project, modified to expose Prometheus metrics
+# 🚀 Kubernetes Monitoring with Prometheus & Grafana + Node.js App (Forked Node.js App, an open-source Node.js project, modified to expose Prometheus metrics)
 
 A complete DevOps project demonstrating how to deploy a **Node.js application** on a **Kubernetes cluster**, and monitor it using **Prometheus** and **Grafana**, all integrated via **Helm**.
 
