@@ -73,6 +73,14 @@ Password: prom-operator (or check via kubectl get secret)
 
 ## 🚀 Deploy the Node.js App
 
+This project uses a forked Node.js application:
+
+> 🔗 Forked From: [original-repo-name](https://github.com/original-owner/original-repo)
+   
+> 📁 Located in: `app/` directory
+ 
+> 🧪 Enhanced with Prometheus client for metric exporting
+
 Apply the following manifests:
 
 kubectl apply -f nodejs-app-deployment.yaml
@@ -81,9 +89,20 @@ kubectl apply -f nodejs-app-service.yaml
 
 Ensure the app exposes a /metrics endpoint compatible with Prometheus.
 
+### Build & Push Docker Image
+(Optional if you want to use your own registry)
+
+cd app/
+
+docker build -t your-dockerhub/nodejs-app:latest .
+
+docker push your-dockerhub/nodejs-app:latest
+
+Update image: in manifests/nodejs-app-deployment.yaml if using a custom image.
+
 ## 🔧 Prometheus Configuration
 
-Create a ServiceMonitor to scrape metrics from the Node.js app:
+Create a Service Monitor to scrape metrics from the Node.js app:
 
 kubectl apply -f service-monitor.yaml
 
