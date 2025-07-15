@@ -120,21 +120,21 @@ Connect Prometheus as a data source.
 
 ### Prometheus dashboard with targets
 
-![Prometheus dashboard with targets]/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/screenshots/prometheus-target-tab.png
+![Prometheus dashboard with targets](screenshots/prometheus-target-tab.png)
 
 ### Grafana Kubernetes monitoring dashboard
 
-![Grafana Kubernetes monitoring dashboard]/screenshots/grafana-monitoring-dashbboard.png
+![Grafana Kubernetes monitoring dashboard](screenshots/grafana-monitoring-dashbboard.png)
 
 ### YAML of ServiceMonitor applied
 
-![YAML of ServiceMonitor applied]/screenshots/applied-service-monitor-yaml.png
+![YAML of ServiceMonitor applied](screenshots/applied-service-monitor-yaml.png)
 
 ### Logs of the deployed Node.js app
 
-![Logs of the deployed Node.js app]/screenshots/node.js.app-deployment.
+![Logs of the deployed Node.js app](screenshots/node.js.app-deployment.png)
 
 ### Output of /metrics endpoint from the app
 
-![Output of /metrics endpoint from the app]/screenshots/app-metrics
+![Output of /metrics endpoint from the app](screenshots/app-metrics.png)
 
