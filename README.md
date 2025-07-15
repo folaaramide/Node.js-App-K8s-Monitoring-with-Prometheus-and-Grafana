@@ -120,7 +120,7 @@ Connect Prometheus as a data source.
 
 ### Prometheus dashboard with targets
 
-![Prometheus dashboard with targets]/screenshots/prometheus-target-tab.png
+![Prometheus dashboard with targets]/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/screenshots/prometheus-target-tab.png
 
 ### Grafana Kubernetes monitoring dashboard
 
