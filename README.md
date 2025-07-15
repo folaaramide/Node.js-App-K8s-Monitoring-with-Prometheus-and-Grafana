@@ -132,9 +132,9 @@ https://github.com/folaaramide/Node.js-App-K8s-Monitoring-with-Prometheus-and-Gr
 
 ### Logs of the deployed Node.js app
 
-https://github.com/folaaramide/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/blob/main/screenshots/node.js.app-deployment.
+https://github.com/folaaramide/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/screenshots/node.js.app-deployment.
 
 ### Output of /metrics endpoint from the app
 
-https://github.com/folaaramide/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/blob/main/screenshots/app-metrics
+https://github.com/folaaramide/Node.js-App-K8s-Monitoring-with-Prometheus-and-Grafana/blob/screenshots/app-metrics
 
