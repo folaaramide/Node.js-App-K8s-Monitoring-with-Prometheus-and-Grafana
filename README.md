@@ -28,6 +28,7 @@ This is an ideal project for showcasing monitoring skills on Kubernetes, and how
 [User] → [Kubernetes Ingress / Service] → [Node.js App Pod]
 
 ↓
+
 [Prometheus] ← [ServiceMonitor] ← [Node.js App Metrics]
 
 ↓
@@ -70,7 +71,7 @@ Username: admin
 
 Password: prom-operator (or check via kubectl get secret)
 
-### 🚀 Deploy the Node.js App
+## 🚀 Deploy the Node.js App
 
 Apply the following manifests:
 
@@ -80,13 +81,13 @@ kubectl apply -f nodejs-app-service.yaml
 
 Ensure the app exposes a /metrics endpoint compatible with Prometheus.
 
-### 🔧 Prometheus Configuration
+## 🔧 Prometheus Configuration
 
 Create a ServiceMonitor to scrape metrics from the Node.js app:
 
 kubectl apply -f service-monitor.yaml
 
-### 📊 Grafana Dashboards
+## 📊 Grafana Dashboards
 
 Import dashboard using:
 
