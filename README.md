@@ -75,7 +75,7 @@ Password: prom-operator (or check via kubectl get secret)
 
 This project uses a forked Node.js application:
 
-> 🔗 Forked From: [original-repo-name](https://github.com/original-owner/original-repo)
+> 🔗 Forked From: [original-repo-name](https://github.com/k21academyuk/nodejs-app-prometheus.git)
    
 > 📁 Located in: `app/` directory
  
