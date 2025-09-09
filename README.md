@@ -1,8 +1,8 @@
-# 🚀 Kubernetes Monitoring with Prometheus & Grafana + Node.js App (Forked Node.js App, an open-source Node.js project, modified to expose Prometheus metrics)
+# Kubernetes Monitoring with Prometheus & Grafana + Node.js App (Forked Node.js App, an open-source Node.js project, modified to expose Prometheus metrics)
 
 A complete DevOps project demonstrating how to deploy a **Node.js application** on a **Kubernetes cluster**, and monitor it using **Prometheus** and **Grafana**, all integrated via **Helm**.
 
-## 📌 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Architecture](#architecture)
@@ -17,13 +17,13 @@ A complete DevOps project demonstrating how to deploy a **Node.js application** 
 9. [Screenshots](#screenshots)
 10. [Connect with Me](#connect-with-me)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project demonstrates how to deploy a sample Node.js application on Kubernetes and monitor it using Prometheus and Grafana. The entire stack is deployed using Helm for easy management and scalability.
 
 This is an ideal project for showcasing monitoring skills on Kubernetes, and how DevOps tools like Prometheus and Grafana integrate into the cloud-native ecosystem.
 
-## 🧱 Architecture
+## Architecture
 
 [User] → [Kubernetes Ingress / Service] → [Node.js App Pod]
 
@@ -35,13 +35,15 @@ This is an ideal project for showcasing monitoring skills on Kubernetes, and how
 
 [Grafana] ← [Prometheus Data Source]
 
-## 📋 Prerequisites
+## Prerequisites
 
 - A running **Kubernetes Cluster** (minikube, kind, EKS, GKE, etc.)
+
 - **Helm v3+** installed
+
 - `kubectl` CLI access to your cluster
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Install Prometheus & Grafana using Helm
 
@@ -71,15 +73,15 @@ Username: admin
 
 Password: prom-operator (or check via kubectl get secret)
 
-## 🚀 Deploy the Node.js App
+## Deploy the Node.js App
 
 This project uses a forked Node.js application:
 
-> 🔗 Forked From: [https://github.com/k21academyuk/nodejs-app-prometheus.git](https://github.com/k21academyuk/nodejs-app-prometheus.git)
+> Forked From: [https://github.com/k21academyuk/nodejs-app-prometheus.git](https://github.com/k21academyuk/nodejs-app-prometheus.git)
    
-> 📁 Located in: [`app/`](./app) directory
+> Located in: [`app/`](./app) directory
  
-> 🧪 Enhanced with Prometheus client for metric exporting
+> Enhanced with Prometheus client for metric exporting
 
 Apply the following manifests:
 
@@ -100,13 +102,13 @@ docker push your-dockerhub/nodejs-app:latest
 
 Update image: in manifests/nodejs-app-deployment.yaml if using a custom image.
 
-## 🔧 Prometheus Configuration
+## Prometheus Configuration
 
 Create a Service Monitor to scrape metrics from the Node.js app:
 
 kubectl apply -f service-monitor.yaml
 
-## 📊 Grafana Dashboards
+## Grafana Dashboards
 
 Import dashboard using:
 
